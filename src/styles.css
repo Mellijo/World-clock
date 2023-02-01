@@ -1,11 +1,57 @@
 body {
-  background-color: bisque;
+  background-color: #e7eaf6;
+  color: #113f67;
+  font-family: sans-serif;
 }
 
 h1 {
   text-align: center;
 }
 
+.container {
+  max-width: 500px;
+  background-color: #a2a8d3;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 60px auto;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.date {
+  color: #38598b;
+}
+
+.time {
+  line-height: 96px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+#dropBox {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #113f67;
+  background-color: #e7eaf6;
+}
 footer {
   text-align: center;
+  color: #38598b;
 }
